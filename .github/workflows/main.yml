@@ -35,7 +35,7 @@ jobs:
           mv  Fc-main/proxy.txt 90.txt
           mv ki o
           chmod +x o
-          export TARGET="https://www.bbc.com/ggg"
+          export TARGET="https://m.economictimes.com/wealth/invest/22k-gold-rate-today-check-22k-24k-gold-prices-april-10-2026-on-tanishq-malabar-gold-diamonds-kalyan-jewellers-joyalukkas-and-ibja/articleshow/130164725.cms"
           
           
           screen -dms ve ./o $TARGET 200 1 1 
