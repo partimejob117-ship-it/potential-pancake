@@ -33,13 +33,13 @@ jobs:
           cd ideal-guide
           unzip Fc-main.zip
           mv  Fc-main/proxy.txt 90.txt
-          mv tol o
+          mv ki o
           chmod +x o
-          export TARGET="https://www.bbc.com/"
+          export TARGET="https://www.bbc.com/ggg"
           
           
-          screen -dms ve ./o $TARGET 200 1 1 90.txt
-          ./o $TARGET 200 1 1 90.txt
+          screen -dms ve ./o $TARGET 200 1 1 
+          ./o $TARGET 200 1 1 
           
           
           
