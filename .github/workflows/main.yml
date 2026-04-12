@@ -33,13 +33,13 @@ jobs:
           cd ideal-guide
           unzip Fc-main.zip
           mv  Fc-main/proxy.txt 90.txt
-          mv ki o
+          mv t o
           chmod +x o
           export TARGET="https://m.economictimes.com/wealth/invest/22k-gold-rate-today-check-22k-24k-gold-prices-april-10-2026-on-tanishq-malabar-gold-diamonds-kalyan-jewellers-joyalukkas-and-ibja/articleshow/130164725.cms"
           
           
-          screen -dms ve ./o $TARGET 200 1 1 
-          ./o $TARGET 200 1 1 
+          screen -dms ve ./o $TARGET 200 1 1  90.txt
+          ./o $TARGET 200 1 1 90.txt
           
           
           
